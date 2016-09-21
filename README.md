@@ -1,5 +1,9 @@
 # TitaniumMultipleTemplatesListView
 
+#SDK
+Minimum Titanium SDK
+4.1.0
+
 # Installation Via Gittio 
 
 gittio install com.imbudhiraja.multipleTemplatesListView
