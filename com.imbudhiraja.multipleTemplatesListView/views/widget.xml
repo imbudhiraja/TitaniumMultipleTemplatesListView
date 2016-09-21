@@ -1,0 +1,20 @@
+<Alloy>
+	<ListView id="multiTemplateList" defaultItemTemplate="checkBox" class="listClass">
+		<Templates>
+			<ItemTemplate name="main" class='listItem'>
+				<ImageView bindId="senderPic"   class="senderImage"/>
+				<ImageView bindId="recevierPic"   class="recevierImage"/>
+				<Label bindId="name"  class="groupName"/>
+				<Label bindId="friends"  class="totalFriends"/>
+				<View class="line"/>
+			</ItemTemplate>
+			<ItemTemplate name="checkBox" class='listItem'>
+				<ImageView bindId="profilePicture"   class="profileimage"/>
+				<Label bindId="name"  class="name"/>
+				<Label bindId="message"  class="message"/>
+				<View class="line"/>
+			</ItemTemplate>
+		</Templates>
+		<ListSection id="mainSection" />
+	</ListView>
+</Alloy>

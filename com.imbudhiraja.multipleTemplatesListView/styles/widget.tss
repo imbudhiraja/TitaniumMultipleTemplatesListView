@@ -1,0 +1,110 @@
+".listClass": {
+	width: "100%",
+	backgroundColor: "white",
+	height:Ti.UI.FILL,
+	separatorColor: "transparent",
+	showVerticalScrollIndicator: false,
+	top: 64
+}
+".listClass[platform=android]": {
+	top: 44
+}
+".listClass[platform=ios]":{
+	separatorStyle:Ti.UI.iPhone.ListViewSeparatorStyle.NONE
+}
+
+".listItem": {
+	width: Ti.UI.FILL,
+	backgroundColor: "white",
+	height: 80
+}
+
+".listItem[platform=ios]":{
+	//selectionStyle: Ti.UI.iPhone.ListViewCellSelectionStyle.NONE
+}
+
+".line":{
+	width: Ti.UI.FILL,
+	height: 1,
+	bottom: 0,
+	backgroundImage: "/images/sseparator.png",
+	backgroundColor: "#D2D2D2"
+}
+
+".name":{
+	height: Ti.UI.SIZE,
+	width: Ti.UI.SIZE,
+	color: "black",
+	left: 80,
+	top: 15,
+	font: {
+		fontSize: 14
+	}
+}
+
+".groupName":{
+	height: Ti.UI.SIZE,
+	width: Ti.UI.SIZE,
+	color: "black",
+	left: 150,
+	top: 15,
+	font: {
+		fontSize: 14
+	}
+}
+
+'.message':{
+	height: Ti.UI.SIZE,
+	left: 80,
+	right: 20,
+	top: 35,
+	font: {
+		fontSize: "14dp"
+	}
+}
+'.totalFriends':{
+	height: Ti.UI.SIZE,
+	left: 150,
+	right: 20,
+	top: 35,
+	font: {
+		fontSize: "14dp"
+	}
+}
+
+".time":{
+	right: 10,
+	top: 10,
+	font: {
+		fontSize: 12
+	}
+}
+
+".profileimage":{
+	height: 60,
+	width: 60,
+	borderRadius: 30,
+	left: 10
+}
+
+
+".senderImage":{
+	height: 60,
+	width: 60,
+	borderRadius: 30,
+	left: 10
+}
+
+".recevierImage":{
+	height: 60,
+	width: 60,
+	borderRadius: 30,
+	left: 80
+}
+
+
+".buttonImage":{
+	height: 20,
+	width: 20,
+	right: 10
+}
